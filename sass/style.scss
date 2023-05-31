@@ -1,0 +1,67 @@
+//variables
+$couleur-primaire: #9356DC;
+$couleur-secondaire: #FF79DA ;
+$couleur-tertiaire: #99E2D0;
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+/* 
+header{
+    max-width: 1200px;
+    margin: auto;
+}
+.localisation{
+    background-color: whitesmoke;
+    border-radius: 1px;
+}
+*/
+
+img, picture{
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.input_explorer{
+    height: 50px;
+    border-radius:  25px 25px ;
+    border: 0px;
+    background-color: $couleur-primaire;
+    width: 215px;
+    color: white;
+}
+
+.section-Fonctionnnement{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+a{
+    display: block;  //pour prendre un width et height
+    text-decoration: none; //pourne pas avoir le soulignement sur le text
+    color: inherit; // pour ne pas avoir la couleur blue par défaut
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+@import "./fonts";
+
+
+/* Sections */
+@import "./header";
+@import "./section-fonctionement";
+@import "./section-restaurants";
+@import "./section-top";
+
+/* Composants */
+@import "./composants/card-resto"; //alt + shift + fleche bas
+@import "./composants/btn-fonct";
+

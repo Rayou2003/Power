@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Shrikhand&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 
+header{
+    max-width: 1200px;
+    margin: auto;
+}
+.localisation{
+    background-color: whitesmoke;
+    border-radius: 1px;
+}
+*/
+img, picture {
+  display: block;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.input_explorer {
+  height: 50px;
+  border-radius: 25px 25px;
+  border: 0px;
+  background-color: #9356DC;
+  width: 215px;
+  color: white;
+}
+
+.section-Fonctionnnement {
+  max-width: 1200px;
+  margin: auto;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Shrikhand", cursive;
+}
+
+/* Sections */
+header {
+  width: 100%;
+}
+header .logo {
+  height: 60px;
+  padding-top: 20px;
+}
+header picture {
+  margin: auto;
+}
+header picture img {
+  height: 30px;
+  margin: auto;
+}
+header .localisation {
+  width: 100%;
+  height: 58px;
+  background-color: rgb(234, 234, 234);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fonctionnement h2 {
+  margin-block: 40px;
+}
+
+.restaurants h2 {
+  margin-block: 15px;
+}
+
+.top {
+  width: 100%;
+  height: 284px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top h2 {
+  margin-block: 30px;
+  display: flex;
+  align-items: center;
+}
+.top h3 {
+  margin-block: 30px;
+}
+
+/* Composants */
+.card-resto {
+  width: 335px;
+  height: 255px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.card-resto img {
+  width: 100%;
+  height: 175px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.btn-fonct {
+  width: 330px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  background-color: rgb(247, 247, 247);
+  transition: all 0.5s ease-in-out;
+}
+.btn-fonct span {
+  background-color: #9356DC;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  color: white;
+  padding-left: 7px;
+  padding-top: 4px;
+  font-size: 13px;
+  margin-left: -11px;
+}
+.btn-fonct i {
+  color: rgb(126, 126, 126);
+  margin-inline: 20px;
+}
+.btn-fonct:hover {
+  background-color: rgb(245, 237, 255);
+}
+.btn-fonct:hover i {
+  color: #9356DC;
+}/*# sourceMappingURL=style.css.map */

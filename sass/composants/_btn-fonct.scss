@@ -1,0 +1,31 @@
+.btn-fonct{
+    width: 330px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba($color: #000000, $alpha: 0.3);
+    background-color: rgb(247,247,247);
+    transition: all 0.5s ease-in-out;
+    span{
+        background-color: $couleur-primaire;
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        color: white;
+        padding-left: 7px;
+        padding-top: 4px;
+        font-size: 13px;
+        margin-left: -11px;
+    }
+    i{
+        color: rgb(126,126,126);
+        margin-inline: 20px;
+    }
+    &:hover{
+        background-color: rgb(245, 237, 255);
+        i{
+            color: $couleur-primaire;
+        }
+    }
+}
